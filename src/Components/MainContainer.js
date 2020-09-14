@@ -1,4 +1,5 @@
 import React from "react";
+import UsersContainer from "./UsersContainer";
 
 class MainContainer extends React.Component {
   constructor(props) {
@@ -10,6 +11,11 @@ class MainContainer extends React.Component {
 
   componentDidMount() {
     const axios = require("axios");
+    // axios.defaults.baseURL = "http://localhost:3000";
+    // axios.defaults.headers.post["Content-Type"] =
+    //   "application/json;charset=utf-8";
+    // axios.defaults.headers.post["Access-Control-Allow-Origin"] = "*";
+
     axios.get("http://localhost:3001/users")
       .then(results => {
         console.log(results);
@@ -21,7 +27,12 @@ class MainContainer extends React.Component {
   }
 
   render() {
-    return <div className="app-main"></div>;
+    return (
+      <div className="app-main">
+        <UsersContainer userData={this.state.users} />
+        sdf
+      </div>
+    );
   }
 }
 
