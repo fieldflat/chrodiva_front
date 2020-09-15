@@ -1,0 +1,35 @@
+#heading {
+  padding: 5em 0;
+  text-align: center;
+}
+
+#main_message {
+  font-size: 64px;
+}
+
+#sub_message {
+  font-size: 24px;
+  color: rgb(131, 131, 131);
+}
+
+#get_started {
+  text-align: center;
+}
+
+#get_started_button {
+  font-size: 18px;
+  display: inline-block;
+  padding: 1em 2em 1em;
+  margin: 0 0 1em 0;
+  color: #ffffff;
+  border-radius: 35px;
+  background-color: #0099ff;
+  border: none;
+  cursor: pointer;
+}
+
+#login_message {
+  margin: 100px 0 !important;
+  padding: 100px 0;
+  font-size: 14px;
+}

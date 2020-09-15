@@ -1,0 +1,21 @@
+.whole {
+  margin-top: 3em;
+  background: rgb(226, 226, 226);
+  padding: 3em 10em;
+  display: flex;
+}
+
+.footer_div {
+  padding: 0 3em;
+}
+
+.footer_a {
+  display: block;
+  margin: 1em 0;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer_a:link, .footer_a:visited, .footer_a:hover, .footer_a:active {
+  color: rgb(99, 97, 97);
+}

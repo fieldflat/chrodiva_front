@@ -1,0 +1,30 @@
+nav {
+  background: pink;
+  margin: 0;
+  padding: 10px;
+}
+
+nav ul {
+	display: flex;
+	flex-flow: row;
+	margin: 0;
+	padding: 6px;
+	list-style-type: none;
+}
+
+nav a {
+	display: block;
+	border-radius: 4px;
+	padding: 12px 24px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+
+nav li:last-child {
+	margin-left: auto;
+}
+
+nav li a:hover {
+	opacity: 0.7;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import update from "react-addons-update";
+import container from "../css/container.module.css";
 import UsersContainer from "./UsersContainer";
 import FormContainer from "./FormContainer";
 
@@ -44,7 +45,7 @@ class MainContainer extends React.Component {
 
   render() {
     return (
-      <div className="app-main">
+      <div className={container.container}>
         <FormContainer createUser={this.createUser} />
         <UsersContainer userData={this.state.users} />
       </div>
