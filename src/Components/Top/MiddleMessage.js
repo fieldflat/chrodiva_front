@@ -1,5 +1,7 @@
 import React from "react";
 import middle_message from "../../css/top/middle_message.module.css";
+import sns_images from "../../images/sns_images.jpeg";
+import friend_voices from "../../images/friend_voices.jpeg";
 import container from "../../css/basis/container.module.css";
 
 export default function TopMessage(props) {
@@ -7,7 +9,11 @@ export default function TopMessage(props) {
     <div className={container.container}>
       <div className={middle_message.flex_container}>
         <div className={middle_message.flex_item}>
-          {/* <Image filename="sns_images.jpeg" alt="sns_images" /> */}
+          <img
+            src={sns_images}
+            alt="Logo"
+            className={middle_message.sns_images_image}
+          />
         </div>
         <div className={middle_message.flex_item}>
           <h3 className={middle_message.heading_message}>
@@ -35,7 +41,11 @@ export default function TopMessage(props) {
           </p>
         </div>
         <div className={middle_message.flex_item}>
-          {/* <Image filename="comments.jpeg" alt="comments" /> */}
+          <img
+            src={friend_voices}
+            alt="Logo"
+            className={middle_message.friend_voices_image}
+          />
         </div>
       </div>
     </div>
