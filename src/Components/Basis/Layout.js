@@ -5,9 +5,11 @@ import Footer from "./Footer"
 class Layout extends React.Component {
   render() {
     return (
-      <div className="App">
-        <Navbar />
-        {this.props.children}
+      <div>
+        <div className="App">
+          <Navbar />
+          {this.props.children}
+        </div>
         <Footer />
       </div>
     );
