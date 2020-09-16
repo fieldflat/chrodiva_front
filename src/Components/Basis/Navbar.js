@@ -1,15 +1,21 @@
 import React from "react"
-import styles from "../../css/basis/navbar.module.css";
+import { Link } from "react-router-dom";
+import _ from "../../css/basis/navbar.module.css";
 
 export default function Navbar(props) {
   return (
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Web Design</a></li>
-        <li><a href="#">Login</a></li>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+        <li>
+          <Link to="/login">Login</Link>
+        </li>
       </ul>
     </nav>
-  )
+  );
 }
