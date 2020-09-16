@@ -1,6 +1,6 @@
 import React from "react";
-import middle_message from "../css/middle_message.module.css";
-import container from "../css/container.module.css";
+import middle_message from "../../css/top/middle_message.module.css";
+import container from "../../css/basis/container.module.css";
 
 export default function TopMessage(props) {
   return (

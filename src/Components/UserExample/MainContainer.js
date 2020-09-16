@@ -1,6 +1,6 @@
 import React from "react";
 import update from "react-addons-update";
-import container from "../css/container.module.css";
+import container from "../../css/basis/container.module.css";
 import UsersContainer from "./UsersContainer";
 import FormContainer from "./FormContainer";
 

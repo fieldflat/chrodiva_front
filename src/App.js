@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Layout from './Components/Layout'
-import MainContainer from './Components/MainContainer'
-import TopContainer from './Components/TopContainer'
+import Layout from './Components/Basis/Layout'
+import MainContainer from './Components/UserExample/MainContainer'
+import TopContainer from './Components/Top/TopContainer'
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
 
