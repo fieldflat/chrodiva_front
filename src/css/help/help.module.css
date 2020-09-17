@@ -1,0 +1,11 @@
+.inform {
+  text-align: center;
+  margin: 3em 0;
+  color: rgb(83, 83, 83);
+}
+
+#twitter_embed {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}

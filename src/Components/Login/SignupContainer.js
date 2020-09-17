@@ -1,6 +1,5 @@
 import React from "react";
 import container from "../../css/basis/container.module.css";
-import { Link } from "react-router-dom";
 import signup from "../../css/login/signup.module.css";
 
 export default function SignupContainer(props) {

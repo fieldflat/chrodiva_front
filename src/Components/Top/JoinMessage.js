@@ -10,7 +10,7 @@ export default function JoinMessage(props) {
       <h2 className={join_message.join}>さあ、Chrodivaをはじめよう！</h2>
 
       <div id={top_message.get_started}>
-        <button id={top_message.get_started_button}>無料で始める！</button>
+        <Link to="/signup" id={top_message.get_started_button}> 無料で始める！ </Link>
         <p></p>
         <span id={top_message.login_message}>
           ユーザ登録がお済みの方は<Link to="/login">こちら</Link>へ
