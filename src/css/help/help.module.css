@@ -4,8 +4,13 @@
   color: rgb(83, 83, 83);
 }
 
-#twitter_embed {
-  width: 50%;
+.twitter_embed_item {
+  text-align: center;
   margin: 0 auto;
+}
+
+#twitter_embed {
+  width: 35%;
+  margin: 0 auto !important;
   text-align: center;
 }
