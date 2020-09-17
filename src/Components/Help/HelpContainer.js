@@ -21,7 +21,10 @@ export default function HelpContainer(props) {
         お問い合わせについては，以下の公式ツイッターアカウントにご連絡ください！
       </h3>
       <div id={help.twitter_embed}>
-        <TwitterTweetEmbed tweetId={"1218160447586631683"} />
+        <TwitterTweetEmbed
+          tweetId={"1218160447586631683"}
+          class={help.twitter_embed_item}
+        />
         <a
           href="https://twitter.com/field_flat?ref_src=twsrc%5Etfw"
           class="twitter-follow-button"
