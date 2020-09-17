@@ -8,7 +8,7 @@ export default function Footer(props) {
       <footer className={footer.whole}>
         <div className={footer.footer_div}>
           <h3 className={footer.heading}>chrodivaについて</h3>
-          <Link to="#" className={footer.footer_a}>
+          <Link to="/about/creator" className={footer.footer_a}>
             制作者の紹介
           </Link>
           <a

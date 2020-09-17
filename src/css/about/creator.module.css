@@ -1,0 +1,19 @@
+.whole {
+  margin-top: 3em;
+}
+
+.image_phase {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.image {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.name {
+  color: rgb(102, 101, 101);
+  font-size: 24px;
+  text-align: center;
+}
